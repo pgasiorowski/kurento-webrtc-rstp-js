@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="./kurento.css">
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="https://rawgit.com/GoogleChrome/webrtc/master/samples/web/js/adapter.js"></script>
+<script src="./bower_components/kurento-utils/js/kurento-utils.js"></script>
+<script src="./console.js"></script>
+<script src="./index.js"></script>
+<title>Kurento Tutorial 3: Video Call 1 to N with WebRTC</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<div class="col-md-5">
+				<div class="row">
+					<div class="col-md-12">
+						<a id="viewer"
+							href="#" class="btn btn-primary"
+							onclick="viewer(); return false;"><span
+							class="glyphicon glyphicon-user"></span> Viewer</a>
+						<a id="terminate"
+							href="#" class="btn btn-danger" onclick="stop(); return false;"><span
+							class="glyphicon glyphicon-stop"></span> Stop</a>
+					</div>
+				</div>
+				<br /> <label class="control-label" for="console">Console</label>
+				<div id="console"></div>
+			</div>
+			<div class="col-md-7">
+				<div id="videoBig">
+					<video id="video" autoplay width="640px" height="480px"
+						   style="width:640px; height:480px" poster="./webrtc.png">
+					</video>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

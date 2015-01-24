@@ -1,0 +1,12 @@
+{
+  "name": "kurento-webrtc-rstp-js",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ws": "~0.4.32",
+    "express": "~3.2.6",
+    "kurento-client": "^5.0.4"
+  }
+}

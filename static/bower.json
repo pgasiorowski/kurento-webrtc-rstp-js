@@ -1,0 +1,20 @@
+{
+  "name": "kurento-webrtc-rstp-js",
+  "version": "1.0.0",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "LGPL",
+  "homepage": "http://www.kurento.org/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "kurento-utils": "^5.0.0"
+  }
+}
