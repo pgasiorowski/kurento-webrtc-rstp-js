@@ -24,7 +24,7 @@ Install node modules and bower components
 
 ```bash
 npm install
-cd public
+cd static
 bower install
 ```
 
